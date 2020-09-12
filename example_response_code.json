@@ -1,0 +1,36 @@
+{
+  "testCentres": [
+    {
+      "availability": { "availableSlots": 72, "slotsAvailableOn": ["2020-09-12T00:00:00"] },
+      "geolocation": { "distance": 335.962848997007 },
+      "testCentre": {
+        "testCentreId": "PRS",
+        "displayName": "Prestwick (drive in only)",
+        "address": {
+          "addressLine1": "Glasgow Prestwick International Airport, Car Park 4",
+          "town": "Prestwick",
+          "postcode": "KA9 3PL"
+        },
+        "active": true,
+        "testCentreGroupId": "GR_RTS"
+      }
+    },
+    {
+      "availability": { "availableSlots": 39, "slotsAvailableOn": ["2020-09-12T00:00:00"] },
+      "geolocation": { "distance": 365.939788396922 },
+      "testCentre": {
+        "testCentreId": "DDC",
+        "displayName": "Dundee Dudhope Castle (drive in only)",
+        "address": {
+          "addressLine1": "Dudhope Park, Staff Car Park, 3 Infirmary Brae",
+          "town": "Dundee",
+          "postcode": "DD3 6TU"
+        },
+        "active": true,
+        "testCentreGroupId": "GR_RTS"
+      }
+    }
+  ],
+  "flagInvalidGeoLocation": false,
+  "customerCode": "35748141"
+}

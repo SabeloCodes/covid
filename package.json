@@ -1,0 +1,31 @@
+{
+  "name": "covidtest",
+  "version": "1.0.0",
+  "description": "keep pinging covid test availability until there are sites",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "gaia",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "say": "^0.16.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jest": "^24.9.0",
+    "prettier-eslint": "^9.0.1"
+  }
+}
