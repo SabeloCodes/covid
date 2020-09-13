@@ -1,7 +1,7 @@
 const axios = require('axios').default;
 const say = require('say');
 
-const INTERVAL = 10 * 1000;
+const INTERVAL = 15 * 1000;
 
 // replace X_URLCODE with the value of the x-urlcode header
 const X_URLCODE = 'VMNTU47T21HEZHJM';
