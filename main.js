@@ -13,12 +13,15 @@ const PAYLOAD = {
   topLevelTestCentreId: 'CVD19',
   postcode: 'N17 0AU',
   testCentreGroupIds: ['GR_RTS', 'GR_STS', 'GR_MTU'],
-  startDate: '2020-09-12T00:00:00',
+  startDate: '2020-09-13T00:00:00',
   numberOfDays: 5,
   appointmentTypeCode: 'ATCOM05',
   paging: { currentPage: 1, pageSize: 3 },
 };
 
+say.speak(
+  `looking for available tests, ideally within ${IDEAL_DISTANCE} miles of ${PAYLOAD.postcode}, or at least within ${MAX_DISTANCE_IN_MILES}.`,
+);
 
 const areTestSitesAvailable = () =>
   axios({

@@ -16,4 +16,6 @@ To run it:
 or
 `$ node main.js`
 
+NB - make sure the computer volume is up. When running the script it will speak out loud so you know it's started and you can confirm you can hear it.
+
 when computer calls out "success" or anything.. go back to your browser and keep switching until you get a good response (they are often too busy and return 249 without giving an error message) and book your test :)
