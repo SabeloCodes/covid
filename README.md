@@ -8,7 +8,8 @@ Fill in all your details until you get to the point where you choose between sit
 Open your browser console and check the network tab, when you click to change site there's a new newtwork call to the test site availability server. 
 Inspect that call (NB - make sure it's the one that asks for what you want, i.e. drive-trhough or walk-through) then:
 1. copy the `x-urlcode` header and replace the value of const `X_URLCODE` in main.js
-2. copy the payload and replace the object in the `data` field in the axios setup code.
+2. copy the ajax payload (from source) and add to the `PAYLOAD` const in main.js
+3. adjust values in `MAX_DISTANCE_IN_MILES` & `IDEAL_DISTANCE`. If something is in your ideal distance, the mac will say "success", then ame of the place, how far it is (According to gov.uk calculations, which are quite a bit off at times, but still workable) and how many appointment slots there are. If it's not within the ideal distance, it will give you the same information, but it won't say "success". if beyond the max distance, it will simply log that there were far away places found, but won't alert you by speaking.
 
 To run it:
 `$ make run`
